@@ -15,7 +15,7 @@ namespace Task2
         public BankAccount(string accountName, string name, decimal amount, string currency) {
             _accountNumber = accountName;
             _accountHolderName = name;
-            _balance = new StructCurrency();
+            _balance = new StructCurrency(amount,currency);
         }
         public string AccountNumber 
         {
