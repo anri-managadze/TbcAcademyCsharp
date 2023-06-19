@@ -54,14 +54,16 @@ namespace Task2
         public void Deposit(decimal amount)
         {
             _balance.Amount += amount;
+            //Console.WriteLine(_balance.Amount);
         }
         public void Withdraw(decimal amount)
         {
             _balance.Amount -= amount;
+            //Console.WriteLine(_balance.Amount);
         }
         public void BalanceCheck()
         {
-            Console.WriteLine(_balance);
+            Console.WriteLine(_balance.Amount);
         }
     }
 }

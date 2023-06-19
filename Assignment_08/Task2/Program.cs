@@ -1,6 +1,6 @@
 ﻿using Task2;
 
-BankAccount person1 = new BankAccount("111","joni",500,"Gel");
-BankAccount person2 = new BankAccount("222", "Jimi", 600,"Gel" );
+BankAccount person1 = new BankAccount("111","joni",50,"Gel");
+BankAccount person2 = new BankAccount("222", "Jimi", 6000,"Gel" );
 
-person1.TransferFunds(person2,100);
+person1.TransferFunds(person2,10);
