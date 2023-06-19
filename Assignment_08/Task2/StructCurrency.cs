@@ -11,7 +11,7 @@ namespace Task2
         private string _currency;
         private decimal _amount;
 
-        public StructCurrency(string currency, decimal amount)
+        public StructCurrency(decimal amount, string currency)
         {
             _amount = amount;
             _currency = currency;
