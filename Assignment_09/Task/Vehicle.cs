@@ -14,7 +14,7 @@ namespace Task
 
         public string Motor { get; set; }
         public string Wheel { get; set; }
-        public string Color { get; set; }
+        public string Color { get; set; } 
 
         public Vehicle(string motor, string wheel, string color)
         {

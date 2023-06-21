@@ -42,5 +42,4 @@ namespace Task
             _armor = armor;
         }
     }
-
 }
