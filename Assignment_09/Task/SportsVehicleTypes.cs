@@ -22,7 +22,7 @@ namespace Task
     {
         private bool _bigTire;
         public bool BigTire { get;set; }
-
+         
         public OffroadCar(string motor, string wheel, string color, int maxSpeed, bool bigTire)
             : base(motor, wheel, color, maxSpeed)
         {

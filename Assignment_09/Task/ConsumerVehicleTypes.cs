@@ -29,4 +29,5 @@ namespace Task
             _highThroughput = highThroughput;
         }
     }
+
 }

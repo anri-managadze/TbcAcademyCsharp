@@ -24,7 +24,7 @@ namespace Task
         public Subway(string motor, string wheel, string color, int numberOfFloors,int numberOfWagons)
             : base(motor, wheel, color, numberOfFloors)
         {
-            _numberOfWagons = numberOfWagons;
+            _numberOfWagons = numberOfWagons; 
         }
     }
 }

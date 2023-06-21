@@ -42,7 +42,7 @@ namespace Task
 
     public class SportsVehicle : Vehicle
     {
-        private int _maxSpeed;
+        private int _maxSpeed; 
 
         public int MaxSpeed { get; set; }
 
