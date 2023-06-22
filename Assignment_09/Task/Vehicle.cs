@@ -12,9 +12,40 @@ namespace Task
         private string _wheel;
         private string _color;
 
-        public string Motor { get; set; }
-        public string Wheel { get; set; }
-        public string Color { get; set; } 
+        public string Motor
+        {
+            get
+            {
+                return _motor;
+            }
+            set
+            { 
+                _motor = value; 
+            }
+
+        }
+        public string Wheel 
+        {
+            get 
+            {
+                return _wheel;
+            }
+            set 
+            {
+                _wheel = value;
+             } 
+        }
+        public string Color 
+        {
+            get 
+            {
+                return _color;
+            } 
+            set
+            {
+                _color = value;
+            }
+        }
 
         public Vehicle(string motor, string wheel, string color)
         {

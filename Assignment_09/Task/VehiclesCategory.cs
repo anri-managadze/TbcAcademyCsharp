@@ -9,7 +9,11 @@ namespace Task
     public class CombatVehicle : Vehicle
     {
         private string _weapon;
-        public string Weapon { get; set; }
+        public string Weapon
+        { 
+            get { return _weapon; }
+            set { _weapon = value; }
+        }
 
         public CombatVehicle(string motor, string wheel, string color, string weapon) 
             : base(motor,wheel,color)
@@ -20,7 +24,11 @@ namespace Task
     public class ConsumerVehicle :Vehicle
     {
         private double _mileage;
-        public double Mileage { get; set; }
+        public double Mileage 
+        { 
+            get { return _mileage; }
+            set { _mileage = value; }
+        }
 
         public ConsumerVehicle(string motor, string wheel, string color,double mileage)
             : base(motor, wheel, color)
@@ -32,7 +40,11 @@ namespace Task
     public class PublicVehicle : Vehicle
     {
         private int _NumberOfFloors;
-        public int NumberOfFloors { get; set; }
+        public int NumberOfFloors 
+        { 
+            get { return _NumberOfFloors; }
+            set { _NumberOfFloors = value; }
+        }
         public PublicVehicle(string motor, string wheel, string color, int numberOfFloors)
             : base(motor, wheel, color)
         {
@@ -42,9 +54,13 @@ namespace Task
 
     public class SportsVehicle : Vehicle
     {
-        private int _maxSpeed; 
+        private int _maxSpeed;
 
-        public int MaxSpeed { get; set; }
+        public int MaxSpeed 
+        { 
+            get { return _maxSpeed; }
+            set { _maxSpeed = value; }
+        }
 
         public SportsVehicle(string motor, string wheel, string color, int maxSpeed) 
             : base(motor, wheel, color)
