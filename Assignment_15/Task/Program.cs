@@ -45,7 +45,7 @@ switch (input)
                     type.GetMethod("AddPerson").Invoke(personList,BindingFlags.Public | BindingFlags.Instance, null, new object?[]{ person }, null);
                     break;
                 case "GetPerson":
-                    personList.GetPerson();
+                    type.GetMethod("GetPerson").Invoke(personList, BindingFlags.Public | BindingFlags.Instance, null, new object?[] {  }, null);
                     break;
                 case "Exit":
                     Console.WriteLine("Exit");
@@ -84,7 +84,7 @@ switch (input)
                     type.GetMethod("AddCar").Invoke(carList, BindingFlags.Public | BindingFlags.Instance, null, new object?[] { car }, null);
                     break;
                 case "GetCar":
-                    carList.GetCar();
+                    type.GetMethod("GetCar").Invoke(carList, BindingFlags.Public | BindingFlags.Instance, null, new object?[] { }, null); ;
                     break;
                 case "Exit":
                     Console.WriteLine("Exit");
